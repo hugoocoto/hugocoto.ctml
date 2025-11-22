@@ -1,31 +1,36 @@
 DOCTYPE(html)
 html(
-  head(
-    style("style.css")
-    title("Hugo Coto - Portfolio")
-    description("Hugo Coto webpage")
-    icon("favicon.png")
-    meta("viewport","width=device-width,initial-scale=1")
-  )
+  "%s" /* Head */
   body(
     div( 
+      "%s" /* Header */
+      , id="header"
+    )
+    div(
+      "%s" /* Index */
       div(
-        a(
-          h1("Portfolio"),
-          class="no-decoration" ,
-          href="https://hugocoto.com/"
+        h2("Hugo Coto")
+        p("Welcome to my landing page! Hope you find something useful here.")
+
+        h3("About me")
+        p( 
+          "Informatics Engineering student at USC, Spain<br>"
+          "- Profitless full-time programmer.<br>"
+          "- Student in my non-free time.<br>"
+          "- I build unstable, useless tools.<br>"
+        , class="info")
+
+        h3("I'm not that strong")
+        p(
+          "Image aspect ratio has been modified a little."
+          , class="info")
+        img("demo", "https://avatars.githubusercontent.com/u/88594185?v=4",  
+         width="800", height="400"
         )
-        a(
-          "self", 
-          class="lang", 
-          href="https://hugoocoto.com"
-        ),
-      id="header-inner"),
-    id="header")
-  )
-  div(
-    #include "index.ctml"
-    ,
-    id="main"),
-  lang="en",
-  class=" pbesedkt idc0_350")
+        , id="content"
+      )
+      , id="main"
+    )
+  ),
+  lang="en", class=" pbesedkt idc0_350"
+)

@@ -32,6 +32,10 @@
 #define meta(name, content) "<meta name=\"" name "\" content=\"" content "\">"
 #define description(s) meta("description", s)
 
+#define ul(content, ...) tag(ul, content, __VA_ARGS__)
+#define li(text, href) "<li><a href=" #href ">" text "</a></li>"
+
+#define img(alt, src, ...) "<img" __VA_OPT__(" " asstr(__VA_ARGS__) " ") "src=" src " alt=" alt ">"
 
 // Convert __VA_ARGS__ to space separated strings
 #define asstr(a, ...) #a __VA_OPT__(" " asstr1(__VA_ARGS__))

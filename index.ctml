@@ -1,0 +1,27 @@
+div(
+  h2("Resume")
+  ul(
+    li("Resume (CV)", "https://github.com/hugoocoto/resume")
+  )
+  h2("Articles")
+  ul(
+    li("Library","https://hugocoto.com/library.html")
+    li("Programs","https://hugocoto.com/tools.html")
+    li("La ia en el 6k","https://hugocoto.com/article.html")
+  )
+  h2("Projects")
+  ul(
+    li("Github","selected")
+    li("Vicel editor","https://github.com/hugoocoto/vicel")
+    li("Todo list","https://github.com/hugoocoto/todo")
+    li("Spec fetcher","https://github.com/hugoocoto/fetch")
+    li("Tui piano","https://github.com/hugoocoto/piano")
+    li("Nvim config","https://github.com/hugoocoto/nvim")
+  )
+  h2("Demos")
+  ul(
+    li("Vicel demo!","https://hugocoto.com/vicel")
+  )
+  div(, class="space")
+  ,id="menu"
+)

@@ -1,0 +1,13 @@
+div(
+  a(
+    h1("Portfolio"),
+    class="no-decoration" ,
+    href="https://hugocoto.com/"
+  )
+  a(
+    ,
+    class="lang", 
+    href="https://hugocoto.com"
+  )
+  , id="header-inner"
+)

@@ -1,0 +1,7 @@
+head(
+  style("style.css")
+  title("Hugo Coto - Portfolio")
+  description("Hugo Coto webpage")
+  icon("favicon.png")
+  meta("viewport","width=device-width,initial-scale=1")
+)
