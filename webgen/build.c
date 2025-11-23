@@ -10,7 +10,7 @@ do {
 /*                      */ #include "index.ctml"
         );
 
-        int fd = open(OUTNAME, O_WRONLY | O_CREAT, (mode_t) 0600);
+        int fd = open(OUTNAME, O_WRONLY | O_CREAT, (mode_t) 0644);
         if (fd < 0) {
                 perror("open");
                 return 1;
