@@ -2,7 +2,7 @@ div(
   a(
     h1("Hugo's webpage"),
     class="no-decoration" ,
-    href="https://hugocoto.com/"
+    href="index.html"
   )
   a(
     ,

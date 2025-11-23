@@ -15,7 +15,7 @@ div(
   h2("Projects")
   ul(
     liref("Github","https://github.com/hugoocoto")
-    liref("Vicel editor","https://github.com/hugoocoto/vicel")
+    liref("Vicel editor","vicel.html", id="selected")
     liref("Todo list","https://github.com/hugoocoto/todo")
     liref("Spec fetcher","https://github.com/hugoocoto/fetch")
     liref("Tui piano","https://github.com/hugoocoto/piano")
