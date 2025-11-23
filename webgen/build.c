@@ -1,4 +1,4 @@
-/* It's weird and I like it */
+/* It's weird so I like it */
 do {
         int len = snprintf(html, sizeof html,
 /*                      */ #include FILENAME

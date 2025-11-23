@@ -1,7 +1,8 @@
 div(
   h2("Resume")
   ul(
-    liref("Resume (CV)", "https://github.com/hugoocoto/resume")
+    liref("Download CV",
+    "https://raw.githubusercontent.com/hugoocoto/resume/refs/heads/main/resume.pdf")
   )
 
   h2("Articles")
