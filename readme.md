@@ -1,3 +1,7 @@
+# hugocoto.com
+Webpage generated from ctml. 
+[hugocoto.com](hugocoto.com)
+
 # Web Gen
 
 Generate html static webpages from ctml. 
