@@ -32,11 +32,28 @@ html("%s"
 "necessities."
         )
 
+        h3("Documentation")
+        p("There is a document that covers almost everything that you, the "
+          "user, might want to know. "
+          "At most you will be able to move around (vicel's lerning curve is "
+          "as vertical as vim's)."
+        )
+        ul(
+          liref("Download as pdf", "https://raw.githubusercontent.com/hugoocoto/vicel/main/docs/vicel_reference.pdf")
+        )
+
+        h3("Live demo!")
+        p("As this is my biggest project, I let you try it on the web. "
+          "It's a demo, what means that you can't open or save the file."
+        )
+        ul(
+          liref("Live demo", "https://hugocoto.com/vicel")
+        )
+
         h3("Links")
         ul(
           liref("Github", "https://github.com/hugoocoto/vicel")
           liref("Webpage (this)", "https://hugocoto.com/vicel.html")
-          liref("Live demo", "https://hugocoto.com/vicel")
         )
 
         /* >> To here << */
