@@ -25,9 +25,7 @@ html(
         "I know that you're not here because you want to give me money, but if "
         "so, feel free to pay me as many coffees as you want." 
         )
-        ul(
-          liref("Github Sponsors", "https://github.com/sponsors/hugoocoto")
-        )
+        lit(<iframe src="https://github.com/sponsors/hugoocoto/card" title="Sponsor hugoocoto" height="120" width="800" style="border: 0;"></iframe>)
 
         h3("I'm not that strong")
         p(

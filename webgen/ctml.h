@@ -45,3 +45,5 @@
 #define asstr3(a, ...) #a __VA_OPT__(" " asstr4(__VA_ARGS__))
 #define asstr4(a, ...) #a __VA_OPT__(" " asstr5(__VA_ARGS__))
 #define asstr5(a, ...) #a __VA_OPT__(" ")
+
+#define lit(a) #a
